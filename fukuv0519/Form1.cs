@@ -24,17 +24,17 @@ namespace fukuv0519
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("小船翔");
+            button1.Text="小船翔";
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("消える");
+            button2.Visible = false;
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("上");
+            button3.Top = 0;
         }
     }
 }
